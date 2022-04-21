@@ -63,21 +63,149 @@ body {
 }
 
 
+
 .main{
-    margin: 0 147px;
     background: #3b89a6; 
-    padding: 133px 300px;
+    padding: 138px 366px 264px 366px;
     
 }
 
 .main-text{   
+    margin: 0 auto;
     width: 726px;
-    height: 265px;
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
-    padding: 133px 300px;
+    padding: 133px 0px;
     color: #FFFFFF;
-   
+    text-align: center;      
+}
+
+.info-section{
+    position: relative;
+}
+
+.info-text{
+    font-family: 'Roboto', sans-serif;
+    padding: 221px 0px;
+    width: 696px;
+    height: 246px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;    
+    color: #000000;
+    text-align: center;
+}
+
+.empty{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background-color:#BFDEFB;
+}
+
+.rectangle1{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.rectangle2{
+    position: absolute;
+    top: 346px;
+    left: 0;
+}
+
+.rectangle3{
+    position: absolute;
+    top: 235px;
+    right: 0;
+}
+
+
+.info-text2{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 221px 0px;
+    width: 696px;
+    height: 246px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;    
+    color: #000000;
+    text-align: center;
+}
+
+.info-text2::before{
+    content: "";
+    position: absolute;
+    top: 170px;
+    left: -30px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+}
+
+.info-text2::after{
+    content: "";
+    position: absolute;
+    right: -150px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB;
+}
+
+
+.personal-info{
+    max-width: 647px;
+    margin: 0 auto;
+    }
+
+.input-holder{
+    position: relative;
+}
+
+.input-info{
+    width: 100%;
+    height: 96px;
+    margin-top: 41px;
+    padding: 36px 0 11px 34px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 36px;
+    box-sizing: border-box;
     
+    
+}
+
+.input-info::placeholder{
+    color: black;
+    
+}
+
+
+.input-holder>label{
+    position: absolute;
+    top: 55px;
+    left: 34px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.input-button{
+    width: 100%;
+    height: 96px;
+    margin-top: 58px;
+    border: none;
+    background-color: #5C98AB;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 }
