@@ -31,7 +31,7 @@ body {
 }
 
 .bg-section{
-    padding: 138px 366px 264px 366px;
+    padding: 138px 0 264px;
     background-image: url('../image/pexels-harrison-candlin-2441454\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +66,7 @@ body {
 
 .main{
     background: #3b89a6; 
-    padding: 138px 366px 264px 366px;
+    padding: 138px 0 264px;
     
 }
 
@@ -106,19 +106,16 @@ body {
 }
 
 .rectangle1{
-    position: absolute;
     top: 100px;
     left: 0;
 }
 
 .rectangle2{
-    position: absolute;
     top: 346px;
     left: 0;
 }
 
 .rectangle3{
-    position: absolute;
     top: 235px;
     right: 0;
 }
@@ -188,7 +185,7 @@ body {
 }
 
 
-.input-holder>label{
+label{
     position: absolute;
     top: 55px;
     left: 34px;
