@@ -1,208 +1,40 @@
-body {
-    font-family: 'Open Sans',
-        sans-serif;
+.wraper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    gap: 30px;
 }
 
-.container{
-    max-width: 1090px;
-    margin: 0 auto;
+.item{
+    background: red;
 }
 
-.header-ul{
-    text-align: center;
+.item:nth-child(1){
+    grid-row: span 2;
+    grid-column: span 3;
+    background: #FF68D5;
 }
 
-.header-li{
-    display: inline-block;
-    margin-right: 45px;
+.item:nth-child(2), .item:nth-child(3), .item:nth-child(7){
+    grid-column:span 2;
+    background: #23ECF9;
 }
 
-.header-li>a{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;    
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
+.item:nth-child(4){
+    grid-column: span 5;
 }
 
-.header {
-    padding: 53px 0px;
+.item:nth-child(5){
+    grid-row: span 2;
+    background: #23ECF9;
 }
 
-.bg-section{
-    padding: 138px 0 264px;
-    background-image: url('../image/pexels-harrison-candlin-2441454\ 1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.item:nth-child(6), .item:nth-child(8), .item:nth-child(9){
+    background: #330BD0;
 }
 
-.bg-text{
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98px;
-    text-align: center;
-    color:white;
-    text-transform: uppercase;
-}
-
-.button{
-    margin: 14px 350px;
-    position: absolute;
-    width: 420px;
-    height: 70px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    color: #162C38;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: none;    
-}
-
-
-
-.main{
-    background: #3b89a6; 
-    padding: 138px 0 264px;
-    
-}
-
-.main-text{   
-    margin: 0 auto;
-    width: 726px;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 49px;
-    padding: 133px 0px;
-    color: #FFFFFF;
-    text-align: center;      
-}
-
-.info-section{
-    position: relative;
-}
-
-.info-text{
-    font-family: 'Roboto', sans-serif;
-    padding: 221px 0px;
-    width: 696px;
-    height: 246px;
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;    
-    color: #000000;
-    text-align: center;
-}
-
-.empty{
-    position: absolute;
-    width: 178px;
-    height: 121px;
-    background-color:#BFDEFB;
-}
-
-.rectangle1{
-    top: 100px;
-    left: 0;
-}
-
-.rectangle2{
-    top: 346px;
-    left: 0;
-}
-
-.rectangle3{
-    top: 235px;
-    right: 0;
-}
-
-
-.info-text2{
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    padding: 221px 0px;
-    width: 696px;
-    height: 246px;
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;    
-    color: #000000;
-    text-align: center;
-}
-
-.info-text2::before{
-    content: "";
-    position: absolute;
-    top: 170px;
-    left: -30px;
-    width: 58px;
-    height: 58px;
-    border-radius: 50%;
-    background-color: #5C98AB;
-}
-
-.info-text2::after{
-    content: "";
-    position: absolute;
-    right: -150px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #BFDEFB;
-}
-
-
-.personal-info{
-    max-width: 647px;
-    margin: 0 auto;
-    }
-
-.input-holder{
-    position: relative;
-}
-
-.input-info{
-    width: 100%;
-    height: 96px;
-    margin-top: 41px;
-    padding: 36px 0 11px 34px;
-    border-radius: 10px;
-    border: 1px solid black;
-    font-size: 36px;
-    box-sizing: border-box;
-    
-    
-}
-
-.input-info::placeholder{
-    color: black;
-    
-}
-
-
-label{
-    position: absolute;
-    top: 55px;
-    left: 34px;
-    font-size: 14px;
-    line-height: 19px;
-}
-
-.input-button{
-    width: 100%;
-    height: 96px;
-    margin-top: 58px;
-    border: none;
-    background-color: #5C98AB;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
+.item:nth-child(10){
+    grid-column: span 3;
+    background: #8DFF65;
 }
