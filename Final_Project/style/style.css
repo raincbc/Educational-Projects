@@ -758,6 +758,12 @@ body{
     .footer-container{
         flex-direction: column;
         align-items: center;
+        align-items: flex-start;
+    }
+
+    .footer-logo{
+        flex-direction: column;
+        text-align: center;
     }
 
     .footer-ul__text{
@@ -776,6 +782,17 @@ body{
         margin-top: 20px;
     }
 
+    .footer-nav{
+        flex-direction: column;       
+    }
+
+    .footer-nav>footer-nav__link>a{
+        justify-content: flex-start;
+    }    
+
+    .footer-nav__link{
+        margin-bottom: 15px;
+    }
 }
 
 @media(max-width:500px){
@@ -809,10 +826,8 @@ body{
         max-width: 100%;
     }
 
-    .footer-nav{
-        flex-direction: column;
-        align-items: center;
-    }
+
+
 }
 
 @media(max-width:430px){
