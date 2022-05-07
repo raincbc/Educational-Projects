@@ -786,9 +786,14 @@ body{
         flex-direction: column;       
     }
 
-    .footer-nav>footer-nav__link>a{
-        justify-content: flex-start;
-    }    
+    .footer-ul__list{
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    .footer-ul__list>div:first-of-type{
+        margin-right: 25px;
+    }
 
     .footer-nav__link{
         margin-bottom: 15px;
@@ -826,7 +831,9 @@ body{
         max-width: 100%;
     }
 
-
+    .footer-ul__list{
+        flex-direction: column;
+    }
 
 }
 
