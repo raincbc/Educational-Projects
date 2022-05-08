@@ -434,8 +434,6 @@ body{
     grid-area: seven;
 }
 
-
-
 .image-place>img{
     border-radius: 8px;
 }
@@ -510,6 +508,46 @@ body{
 .free-input:focus{
     outline: none;
 }
+
+.smile-input{
+    opacity: 0;
+}
+
+
+
+.smile{
+    margin-top: 10px;
+    width:33px;
+    height:33px;
+    display: inline-block;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.smile-label{
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.smile::before{
+    content: url(../image/Smile.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.smile-input:checked ~ .smile::before{
+    opacity: 1;
+    transition: 2s;
+}
+
 
 .footer{
     padding: 15px 0;
