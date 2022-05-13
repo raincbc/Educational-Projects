@@ -660,6 +660,7 @@ body{
     "four five three"
     "four six seven";
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .image-place>img{
@@ -771,7 +772,11 @@ body{
 }
 
 .smile-input{
+    position: absolute;
+    width: 30px;
+    height: 30px;
     opacity: 0;
+    z-index: 1;
 }
 
 .smile-content{
@@ -954,7 +959,7 @@ body{
 
 @media (max-width:1140px){
     .container{
-        max-width: 950px;
+        max-width: 940px;
     }
     .header{
         padding: 15px 0;
@@ -989,6 +994,8 @@ body{
 
     
 }
+
+
 
 
 
@@ -1147,6 +1154,17 @@ body{
     .header-li:not(:last-child) {
     margin-right:0;
     }
+
+    
+    .label-content{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+
+    .label{
+        justify-self: center ;
+    }
     
 }
 
@@ -1155,11 +1173,6 @@ body{
         max-width: 750px;
     }
 
-    .label-content{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 20px;
-    }
 
     .label-content:nth-child(3)>img{
         width: 70%;
@@ -1192,6 +1205,10 @@ body{
 @media(max-width:750px){
     .container{
         max-width: 560px;
+    }
+
+    .menu{
+        right: 20px;
     }
 
     .label-content{
@@ -1307,11 +1324,24 @@ body{
         max-width: 500px;
     }
 
+    .team-image{
+        transform: scale(0.8);
+    }
+
+    .menu-container__image{
+        transform: scale(0.8);
+        margin: -50px 0;
+    }
+
 }
 
 @media(max-width:500px){
     .container{
         max-width: 400px;
+    }
+
+    .menu{
+        left: 20px;
     }
 
     .question-text{
@@ -1492,11 +1522,4 @@ body{
     .about-items__text{
         max-width: 150px;
     }
-}
-
-@media (max-width:270px){
-    .container{
-        max-width: 200px;
-    }
-    
 }
