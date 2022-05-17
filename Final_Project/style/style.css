@@ -1023,6 +1023,10 @@ body{
         margin-bottom: 30px;
     }
 
+    .about-info{
+        padding-top: 30px;
+    }
+
     .team-content{
         flex-direction: column;
         text-align: center;
@@ -1508,6 +1512,19 @@ body{
 
     .header-wrapper>div:first-of-type{
         max-width:290px; ;
+    }
+
+    .title-text{
+        font-size: 40px;
+    }
+
+    .engage-h{
+        font-size: 40px;
+    }
+
+    .engage-text2{
+        max-width: 290px;
+        margin: 0 auto;
     }
 
 
