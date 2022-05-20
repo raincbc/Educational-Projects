@@ -60,6 +60,10 @@
     opacity: 0.2;
 }
 
+.slick-arrow{
+    display:none
+}
+
 @media(max-width:1160px){
     .carousel-container>img{
         position: static;

@@ -910,6 +910,21 @@ body{
     display: none;
 }
 
+#up{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #0189D1;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#up>i{
+    color: white;
+    font-size: 25px;
+}
+
 
 
 @keyframes free-animation{
@@ -953,6 +968,7 @@ body{
 
     .space-image{
         margin-top: 20%;
+    }
 
 }
 
@@ -1006,7 +1022,10 @@ body{
 
     .label-content{
         flex-wrap: wrap;
-        justify-content: space-around;
+    }
+
+    .label>img{
+        justify-self: center;
     }
 
     .engage-image{
