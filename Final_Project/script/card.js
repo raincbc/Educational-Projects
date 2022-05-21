@@ -6,6 +6,16 @@ const props = {
   cardHeight: cards[0].clientHeight,
 }
 
+if(screenWidth > 1140){
+  props.delta = 15
+}else if(screenWidth < 1140 && screenWidth > 1040 ){
+  props.delta = 10
+}else if(screenWidth < 1040 && screenWidth > 430){
+  props.delta = 25
+}else if(screenWidth < 430){
+  props.delta = 28
+}
+
 const midWidth = props.cardWidth / 2;
 const midHeight = props.cardHeight / 2;
 

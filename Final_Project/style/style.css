@@ -1024,6 +1024,7 @@ body{
         transform:scale(80%);
     }
     
+    
 }
 
 
@@ -1560,6 +1561,25 @@ body{
         max-width: 290px;
         margin: 0 auto;
     }
+
+    .space-title{
+        margin: 0 auto;
+    }
+
+    .image-text{
+        max-width: 350px;
+        padding-bottom: 20px;
+        margin-bottom: -200px;
+    }
+
+    .image-place{
+        margin-bottom: -100px;
+    }
+
+    #up{
+        transform: scale(0.7);
+    }
+
 
 
 }
