@@ -678,31 +678,31 @@ body{
     }
 
 
-.image-place>img:nth-child(1){
+.image-place>div:nth-child(1){
     grid-area: one;
 }
 
-.image-place>img:nth-child(2){
+.image-place>div:nth-child(2){
     grid-area: two;
 }
 
-.image-place>img:nth-child(3){
+.image-place>div:nth-child(3){
     grid-area: three;
 }
 
-.image-place>img:nth-child(4){
+.image-place>div:nth-child(4){
     grid-area: four;
 }
 
-.image-place>img:nth-child(5){
+.image-place>div:nth-child(5){
     grid-area: five;
 }
 
-.image-place>img:nth-child(6){
+.image-place>div:nth-child(6){
     grid-area: six;
 }
 
-.image-place>img:nth-child(7){
+.image-place>div:nth-child(7){
     grid-area: seven;
 }
 

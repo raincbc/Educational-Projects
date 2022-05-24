@@ -36,3 +36,6 @@ $('#home').on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({scrollTop: $('#about').offset().top},600)
 })
+
+document.getElementById('checkbox').checked = false;
+$('body').css({'overflow':'visible'})
