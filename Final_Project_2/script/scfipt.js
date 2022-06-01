@@ -7,6 +7,5 @@ $('.answer-span').on('click', function () {
     $(this).children('img').toggleClass('span-rotate');
 })
 
-document.getElementById('checkbox').checked = false;
-$('body').css({ 'overflow': 'visible' })
-
+document.getElementById('.checkbox').checked = false;
+$('body').css({'overflow':'visible'})

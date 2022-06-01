@@ -1,0 +1,49 @@
+.modal-section{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    cursor: default;
+}
+
+.modal-container{
+    text-align: center;
+    margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 60px;
+    padding: 30px;
+    position: relative;
+}
+
+.modal-brands{
+    background-color: aliceblue;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.modal-H{
+    color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.modal-link{
+    margin-top: 50px;
+}
+
+.modal-close{
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    cursor: pointer;
+}
