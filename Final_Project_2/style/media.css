@@ -649,6 +649,252 @@
     .container{
         max-width: 470px;
     }
+
+    .logo>img{
+        margin-left: 20px;
+    }
+
+    .space-introduce{
+        justify-content: flex-start;
+    }
+
+    .space-introduce>p{
+        margin-left: 30px;
+    }
+
+    .title-text>h1{
+        max-width: 350px;
+        font-size: 34px;
+        line-height: 50px;
+        margin-left: 55px;
+        text-align: start;
+    }
+
+    .title-text>p{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: start;
+        padding: 0;
+        margin-left: 70px;
+    }
+
+    .space-input__content{
+        margin-top: 20px;
+    }
+
+    .space-image>img{
+        transform: scale(0.6);
+        margin-left: -130px;
+    }
+
+    .title-text{
+        padding: 0;
+    }
+
+    .workspace-section{
+        margin-top: 220px;
+    }
+
+    .workspace-title>h2{
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .workspace-main__text{
+        max-width: 350px;
+    }
+
+    .slick-arrow__next{
+        right: 160px;
+    }
+
+    .slick-arrow__prev{
+        right: 250px;
+    }
+
+    .workspace-content__text-prev, .workspace-content__text-next{
+        display: none;
+    }
+
+    .info-content>div{
+        justify-self: flex-start;
+    }
+
+    .info-main__content>h2{
+        font-size: 34px;
+    }
+
+    .design-title__content{
+        justify-content: flex-start;
+    }
+
+    .design-container>h2{
+        margin-top: 20px;
+        font-size: 34px;
+        line-height: 50px;
+        max-width: 350px;
+        text-align: start;
+        margin-left: 40px;
+    }
+
+    .design-title__content>p{
+        margin-left: 10px;
+    }
+
+    .design-link>div{
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .design-main__content>div:last-child>img{
+        transform: scale(0.6);
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+
+    .design-main__content>div:last-child{
+        margin-bottom: -80px;
+    }
+
+    .gallery-main{
+        justify-content: flex-start;
+        margin-left:45px;
+        margin-top: -50px;
+    }
+
+    .gallery-h{
+        font-size: 34px;
+        line-height: 50px;
+        text-align: start;
+        max-width: 350px;
+        margin-left: 45px;
+    }
+
+    .brands-title{
+        font-size: 34px;
+        margin-top: -20px;
+    }
+
+    .brands-text{
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .brands-image__content>div{
+        transform: scale(0.8);
+    }
+
+    .customers-main{
+        justify-content: flex-start;
+    }
+
+    .customers-main>p{
+        margin-left: 15px;
+    }
+
+    .customers-container>h2{
+        font-size: 34px;
+        line-height: 50px;
+        text-align: start;
+        max-width: 350px;
+        margin-left: 45px;
+    }
+
+    .customer-slick__arrows{
+        right: 180px;
+    }
+
+    .customer-content__wrapper{
+        height: 290px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .answer-title{
+        font-size: 34px;
+        line-height: 50px;
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .answer-main__content{
+        margin-top: 10px;
+    }
+
+    .news-section{
+        padding-top: 0;
+    }
+
+    .news-title{
+        font-size: 34px;
+        line-height: 50px;
+        max-width: 350px;
+    }
+
+    .news-content{
+        margin: 0 auto;
+    }
+
+    .news-content>div{
+        transform: scale(0.8);
+    }
+
+    .news-content>div:first-child{
+        margin-top: -80px;
+    }
+
+    .news-content>div:last-child{
+        margin-top: -210px;
+        margin-left: 58px;
+    }
+
+    .member-section{
+        margin-top: -100px;
+    }
+
+    .member-main{
+        justify-content: flex-start;
+    }
+
+    .member-main>p{
+        margin-left: 45px;
+    }
+
+    .member-title{
+        font-size: 34px;
+        line-height: 50px;
+        text-align: start;
+        max-width: 350px;
+        margin-left: 45px;
+    }
+
+    .member-container>div>p{
+        max-width: 350px;
+        text-align: start;
+        margin-left: 45px;
+    }
+
+    .member-button{
+        margin-left: 45px;
+    }
+
+    .member-image>img{
+        transform: scale(0.8);
+        margin-top: -20px;
+    }
+
+    .footer-section{
+        padding-top: 20px;
+    }
+
+    .footer-title{
+        font-size: 34px;
+        line-height: 50px;
+    }
+
 }
 
 
