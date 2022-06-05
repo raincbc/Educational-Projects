@@ -892,6 +892,12 @@ text-align: center;
     margin-top: 25px;
 }
 
+.footer-social__link>a>img:hover{
+    animation: social-animation;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
 .footer-social__link>a:not(:last-child){
     margin-right: 20px;
 }
@@ -932,5 +938,14 @@ text-align: center;
 @keyframes hide-span{
     from{transform: translate(-180px);}
     to{transform: translate(0);}
+}
+
+@keyframes social-animation{
+    0%{transform: rotate(0deg);}
+   20%{transform: rotate(-45deg);}
+   40%{transform: rotate(45deg);}
+   60%{transform: rotate(-45deg);}
+   80%{transform: rotate(0deg);}
+   100%{transform: scale(1.5);}
 }
 
