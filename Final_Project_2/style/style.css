@@ -13,6 +13,10 @@
     z-index: 3;
 }
 
+.menu-go{
+display: none;
+}
+
 .menu-wrapper__line:first-of-type{
     width: 25px;
     height: 4px;
@@ -333,7 +337,7 @@ text-align: center;
 
 .workspace-content{
     position: relative;
-    max-width: 350px;
+    /* max-width: 350px; */
     box-sizing: border-box;
     overflow: hidden;
     margin: 30px;
