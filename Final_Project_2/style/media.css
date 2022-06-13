@@ -377,7 +377,7 @@
 
     .space-image{
         transform: scale(0.7);
-        margin-left: -150px;
+        margin-left: -110px;
         margin-top: -70px;
     }
 
@@ -393,12 +393,6 @@
     .workspace-title>h2{
         margin: 0 auto;
         text-align: center;
-    }
-
-    .space-image{
-        position:relative;
-        margin-top: -70px;
-        margin-left: -85px;
     }
 
     .workspace-section{
@@ -985,7 +979,7 @@
 
     .space-image>img{
         transform: scale(0.5);
-        margin-left: -203px;
+        margin-left: -175px;
         margin-top: -60px;
     }
 
