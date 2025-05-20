@@ -1,0 +1,152 @@
+.carousel-section{
+    position: relative;
+}
+
+.carousel-container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.carousel-title__text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142C6;
+    margin-bottom: 30px;
+}
+
+.carousel-main__text{
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.carousel-text_bold{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.carousel-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.carousel-container>img{
+    position: absolute;
+    right: 30px;
+    bottom: -100px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color:#3142C5;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+    color: #2B292D;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+
+.slick-dots li button:hover{
+    color: #2B292D;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+
+.slick-arrow{
+    display:none
+}
+
+@media(max-width:1160px){
+    .carousel-container>img{
+        position: static;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:1040px){
+    .carousel-title__text{
+        max-width: 570px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .carousel-main__text{
+        max-width: 580px;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .carousel-text{
+        max-width: 175px;
+        margin: 0 auto;
+    }
+
+    .carousel-container{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:430px){
+    .carousel>p{
+        text-align: start;
+    }
+
+    .carousel-title__text{
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 280px;
+    }
+
+    .carousel-text{
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .carousel-text_bold{
+        max-width: 250px;
+        margin: 20px auto 0;
+    }
+
+    .carousel-main__text{
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 250px;
+
+    }
+}
+
+@media(max-width:310px){
+
+    .carousel{
+        max-width: 200px;
+        margin: 0 30px;
+    }
+    .carousel-title__text{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .carousel-main__text{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .carousel-text_bold{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .carousel-text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
