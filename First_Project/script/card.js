@@ -1,4 +1,5 @@
 const cards = Array.from(document.querySelectorAll('.hover-card'));
+const screenWidth = window.innerWidth;
 const props = {
   perspective: '500px',
   delta: 15,
@@ -6,7 +7,7 @@ const props = {
   cardHeight: cards[0].clientHeight,
 }
 
-if(screenWidth > 1140){
+if (screenWidth > 1140) {
   props.delta = 15
 }else if(screenWidth < 1140 && screenWidth > 1040 ){
   props.delta = 10
@@ -25,6 +26,7 @@ for (const card of cards) {
 }
 
 function mouseOverCard(e) {
+console.log(screenWidth);
   const cursorX = e.pageX - this.offsetLeft; 
   const cursorY = e.pageY - this.offsetTop;
   const cursCenterX = midWidth - cursorX;
