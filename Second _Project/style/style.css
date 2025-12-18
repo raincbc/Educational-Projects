@@ -12,10 +12,10 @@
     top: 73px;
     z-index: 3;
 }
-
+/* 
 .menu-go{
 display: none;
-}
+} */
 
 .menu-wrapper__line:first-of-type{
     width: 25px;
